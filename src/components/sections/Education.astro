@@ -1,17 +1,23 @@
 ---
-import Section from "../Section.astro"
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+import Section from "../Section.astro";
 
-import { education } from "@cv"
+import { education } from "@cv";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<Section title="Educación">
+<Section title={t("education.title")}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear()
+        const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+          endDate != null
+            ? new Date(endDate).getFullYear()
+            : t("education.current");
+        const years = `${startYear} - ${endYear}`;
 
         return (
           <li>
@@ -29,7 +35,7 @@ import { education } from "@cv"
               </footer>
             </article>
           </li>
-        )
+        );
       })
     }
   </ul>

@@ -8,35 +8,19 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
+
 import { basics } from "@cv";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
 const { name, label } = basics;
 
-export const getStaticPaths = () => {
-  const supportedLanguages = ["es", "en"];
-
-  return supportedLanguages.map((lan) => ({
-    params: { lan },
-  }));
-};
-
-const { lan } = Astro.params;
-
-type I18n = {
-  titlePage: string;
-};
-
-const i18n: Record<string, I18n> = {
-  es: {
-    titlePage: `Portfolio de ${name} - ${label}`,
-  },
-  en: {
-    titlePage: `${name}´s Portfolio - ${label}`,
-  },
-};
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<Layout title={i18n[lan].titlePage}>
+<Layout
+  title={t("seo.title").replace("{name}", name).replace("{label}", label)}
+>
   <main>
     <Hero />
     <About />
