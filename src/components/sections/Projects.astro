@@ -1,9 +1,11 @@
 ---
 import GitHub from "@/icons/GitHub.astro";
 import Section from "../Section.astro";
-
-import { projects } from "@cv";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+import type { CV } from "@/cv";
+
+const cv = Astro.props.cv as CV;
+const { projects } = cv;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -34,7 +36,7 @@ const t = useTranslations(lang);
                         target="_blank"
                         title={t("projects.see-repo").replace("{name}", name)}
                       >
-                        <GitHub class="no-print" />
+                        <GitHub />
                       </a>
                     )}
                   </h3>

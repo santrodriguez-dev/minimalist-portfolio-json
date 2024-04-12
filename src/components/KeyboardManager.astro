@@ -2,9 +2,16 @@
 import "hotkeypad/reset.css";
 import "hotkeypad/index.css";
 import { type SocialIcon } from "@/types";
-import { basics } from "@cv";
+import type { CV } from "@/cv";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const cv = Astro.props.cv as CV;
+const { basics } = cv;
 
 const { profiles } = basics;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg
@@ -19,28 +26,28 @@ const SOCIAL_ICONS: SocialIcon = {
   ></path></svg
 >`,
   LinkedIn: `<svg
-  height="16"
-  width="16"
-  viewBox="0 0 24 24"
-  xmlns="http://www.w3.org/2000/svg"
-  style="margin-right: 8px"
-  ><title>LinkedIn</title><path
-    fill="currentColor"
-    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-  ></path></svg
->`,
+    height="16"
+    width="16"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    style="margin-right: 8px"
+    ><title>LinkedIn</title><path
+      fill="currentColor"
+      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+    ></path></svg
+  >`,
   X: `<svg
-  width="16"
-  height="16"
-  viewBox="0 0 24 24"
-  xmlns="http://www.w3.org/2000/svg"
-  style="margin-right: 8px"
-  ><title>X</title><path
-    fill="currentColor"
-    d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
-  ></path></svg
->
-`,
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    style="margin-right: 8px"
+    ><title>X</title><path
+      fill="currentColor"
+      d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+    ></path></svg
+  >
+  `,
 };
 
 const profilesInfo = profiles.map(({ network, url }) => {
@@ -50,17 +57,35 @@ const profilesInfo = profiles.map(({ network, url }) => {
   return {
     id: network,
     section: "Social",
-    title: `Visitar ${network}`,
+    title: t("keyboardmanager.visit").replace("{network}", network),
     url,
     icon,
     hotkey: `ctrl+${firstLetter}`,
   };
 });
+
+const translations = {
+  "keyboardmanager.hotkey-label": t("keyboardmanager.hotkey-label")
+    .replace("{cmd}", "<kbd>Ctrl</kbd>")
+    .replace("{key}", "<kbd>K</kbd>"),
+  "keyboardmanager.no-results": t("keyboardmanager.no-results"),
+  "keyboardmanager.print": t("keyboardmanager.print"),
+  "keyboardmanager.lightmode": t("keyboardmanager.lightmode"),
+  "keyboardmanager.darkmode": t("keyboardmanager.darkmode"),
+  "keyboardmanager.visit": t("keyboardmanager.visit"),
+  "keyboardmanager.theme": t("keyboardmanager.theme"),
+  "keyboardmanager.actions": t("keyboardmanager.actions"),
+  "keyboardmanager.placeholder-search": t("keyboardmanager.placeholder-search"),
+  "keyboardmanager.switch-language": t("keyboardmanager.switch-language"),
+  "keyboardmanager.systemmode": t("keyboardmanager.systemmode"),
+};
 ---
 
-<footer id="normal-footer" class="no-print">
-  Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
-</footer>
+<footer
+  id="normal-footer"
+  class="no-print"
+  set:html={translations["keyboardmanager.hotkey-label"]}
+/>
 
 <div id="footer-button" class="no-print">
   <svg
@@ -83,8 +108,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
 <div
   id="hotkeypad"
-  data-placeholder="Buscar comando"
+  data-placeholder={t("keyboardmanager.placeholder-search")}
   data-info={JSON.stringify(profilesInfo)}
+  data-translations={JSON.stringify(translations)}
 >
 </div>
 
@@ -117,29 +143,49 @@ const profilesInfo = profiles.map(({ network, url }) => {
       },
     };
   });
+
+  const translations =
+    hotkeypad.instance.getAttribute("data-translations") ?? "[]";
+  const parsedTranslations = JSON.parse(translations) as Record<string, string>;
+
+  const currentLanguage = document.documentElement.lang;
+
   hotkeypad.setCommands([
     {
       id: "print",
-      title: "Imprimir",
+      title: parsedTranslations["keyboardmanager.print"],
       icon: `<svg style="margin-right: 8px" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
 </svg>`,
       hotkey: "ctrl+P",
-      section: "Acciones",
+      section: parsedTranslations["keyboardmanager.actions"],
       handler: () => {
         window.print();
       },
     },
     {
       id: "print",
-      title: "Versión en inglés",
+      title: parsedTranslations["keyboardmanager.switch-language"],
+      icon: `<svg
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802"
+        ></path>
+      </svg>`,
       hotkey: "ctrl+I",
-      section: "Acciones",
-      handler: () => {},
+      section: parsedTranslations["keyboardmanager.actions"],
+      handler: () => (location.href = currentLanguage === "es" ? "/en" : "/"),
     },
     {
       id: "lightmode",
-      title: "Claro",
+      title: parsedTranslations["keyboardmanager.lightmode"],
       icon: `<svg
         style="margin-right: 8px"
         width="24"
@@ -157,13 +203,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
         ></path></svg
       >`,
       hotkey: "ctrl+C",
-      section: "Tema",
+      section: parsedTranslations["keyboardmanager.theme"],
       handler: () =>
         document.documentElement.setAttribute("data-theme", "light"),
     },
     {
       id: "darkmode",
-      title: "Oscuro",
+      title: parsedTranslations["keyboardmanager.darkmode"],
       icon: `<svg
         style="margin-right: 8px"
         width="24"
@@ -180,13 +226,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
       >
       `,
       hotkey: "ctrl+V",
-      section: "Tema",
+      section: parsedTranslations["keyboardmanager.theme"],
       handler: () =>
         document.documentElement.setAttribute("data-theme", "dark"),
     },
     {
       id: "systemmode",
-      title: "Sistema",
+      title: parsedTranslations["keyboardmanager.systemmode"],
       icon: `<svg
         style="margin-right: 8px"
         width="24"
@@ -203,7 +249,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
         ></path></svg
       >`,
       hotkey: "ctrl+B",
-      section: "Tema",
+      section: parsedTranslations["keyboardmanager.theme"],
       handler: () =>
         document.documentElement.setAttribute("data-theme", "system"),
     },
@@ -284,12 +330,5 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation: linear 0.3s fadeIn;
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
-  }
-
-  kbd {
-    background: #eee;
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-size: 12px;
   }
 </style>

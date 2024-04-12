@@ -11,12 +11,15 @@ import Git from "@/icons/Git.astro";
 import GitHub from "@/icons/GitHub.astro";
 import Tailwind from "@/icons/Tailwind.astro";
 import Next from "@/icons/Next.astro";
-import { skills } from "@cv";
 import Swift from "@/icons/Swift.astro";
 import SwiftUI from "@/icons/Swiftui.astro";
 import Kotlin from "@/icons/Kotlin.astro";
 import Flutter from "@/icons/Flutter.astro";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+import type { CV } from "@/cv";
+
+const cv = Astro.props.cv as CV;
+const { skills } = cv;
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,

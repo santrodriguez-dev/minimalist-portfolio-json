@@ -1,8 +1,10 @@
 ---
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 import Section from "../Section.astro";
+import type { CV } from "@/cv";
 
-import { education } from "@cv";
+const cv = Astro.props.cv as CV;
+const { education } = cv;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);

@@ -23,7 +23,18 @@ export const ui = {
     'projects.see-project': "Ver proyecto {name}",
     'projects.see-repo': "Ver código fuente del proyecto {name}",
     'skills.title': "Skills",
-    'languagepicker.a.title': 'Change to spanish version'
+    'keyboardmanager.switch-language': 'Cambiar a version en inglés',
+    'keyboardmanager.placeholder-search': 'Buscar comando',
+    'keyboardmanager.no-results': 'No hay resultados',
+    'keyboardmanager.print': 'Imprimir',
+    'keyboardmanager.lightmode': 'Modo Claro',
+    'keyboardmanager.darkmode': 'Modo Oscuro',
+    'keyboardmanager.systemmode': 'Modo Sistema',
+    'keyboardmanager.visit': 'Visitar {network}',
+    'keyboardmanager.theme': 'Tema',
+    'keyboardmanager.actions': 'Acciones',
+    'keyboardmanager.social': 'Social',
+    'keyboardmanager.hotkey-label': 'Pulsa {cmd} + {key} para ver la paleta de comandos',
   },
   en: {
     'seo.title': '{name}´s Portfolio - {label}`',
@@ -40,6 +51,16 @@ export const ui = {
     'projects.see-project': "See project {name}",
     'projects.see-repo': "See source code of project {name}",
     'skills.title': "Skills",
-    'languagepicker.a.title': 'Change to spanish version'
+    'keyboardmanager.switch-language': 'Switch to Spanish version',
+    'keyboardmanager.placeholder-search': 'Search command',
+    'keyboardmanager.no-results': 'No results',
+    'keyboardmanager.print': 'Print',
+    'keyboardmanager.lightmode': 'Light mode',
+    'keyboardmanager.darkmode': 'Dark mode',
+    'keyboardmanager.systemmode': 'System mode',
+    'keyboardmanager.visit': 'Visit {network}',
+    'keyboardmanager.theme': 'Theme',
+    'keyboardmanager.actions': 'Actions',
+    'keyboardmanager.hotkey-label': 'Press {cmd} + {key} to open the command palette',
   }
 } as const;

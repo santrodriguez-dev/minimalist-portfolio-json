@@ -9,10 +9,10 @@ import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 
-import { basics } from "@cv";
+import cv from "@cv-en";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
-const { name, label } = basics;
+const { name, label } = cv.basics;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -22,15 +22,15 @@ const t = useTranslations(lang);
   title={t("seo.title").replace("{name}", name).replace("{label}", label)}
 >
   <main>
-    <Hero />
-    <About />
-    <Experience />
-    <Education />
-    <Projects />
-    <Skills />
+    <Hero cv={cv} />
+    <About cv={cv} />
+    <Experience cv={cv} />
+    <Education cv={cv} />
+    <Projects cv={cv} />
+    <Skills cv={cv} />
   </main>
 
-  <KeyboardManager />
+  <KeyboardManager cv={cv} />
 </Layout>
 
 <style>
