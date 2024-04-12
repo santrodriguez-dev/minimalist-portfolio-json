@@ -17,6 +17,11 @@ import Kotlin from "@/icons/Kotlin.astro";
 import Flutter from "@/icons/Flutter.astro";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 import type { CV } from "@/cv";
+import Angular from "@/icons/Angular.astro";
+import AWS from "@/icons/AWS.astro";
+import Azure from "@/icons/Azure.astro";
+import Vue from "@/icons/Vue.astro";
+import MongoDB from "@/icons/MongoDB.astro";
 
 const cv = Astro.props.cv as CV;
 const { skills } = cv;
@@ -29,6 +34,7 @@ const SKILLS_ICONS: Record<string, any> = {
   React,
   Node,
   MySQL,
+  MongoDB,
   Git,
   GitHub,
   Next,
@@ -37,6 +43,10 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Angular,
+  Vue,
+  AWS,
+  Azure,
 };
 
 const lang = getLangFromUrl(Astro.url);

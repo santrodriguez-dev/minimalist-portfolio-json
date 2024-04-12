@@ -4,10 +4,10 @@
     "baseUrl": ".",
     "paths": {
       "@cv-es": [
-        "./src/i18n/cv/cv-es.json"
+        "./public/cv/cv-es.json"
       ],
       "@cv-en": [
-        "./src/i18n/cv/cv-en.json"
+        "./public/cv/cv-en.json"
       ],
       "@/*": [
         "src/*"

@@ -1,0 +1,352 @@
+{
+  "basics": {
+    "name": "Santiago Iván Rodríguez",
+    "label": "Full Stack Developer con mas de 8 años de experiencia",
+    "image": "/me.webp",
+    "email": "srodriguezm95@gmail.com",
+    "phone": "+57 3194339228",
+    "url": "https://santi.dev",
+    "summary": "Desarrollador Full Stack con +6 años de experiencia en la creación de soluciones web robustas y eficientes. Entrega de productos de alta calidad y performance que cumplen con las necesidades del cliente y superen sus expectativas. Sólidos conocimientos en tecnologías web modernas y metodologías ágiles. Habilidad demostrada de liderazgo y comunicación entre diferentes equipos para fomentar la colaboración y el crecimiento.",
+    "location": {
+      "address": "Cra 86 #75a-85 apto 335",
+      "postalCode": "57",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "santiago-rodriguez95",
+        "url": "https://www.linkedin.com/in/santiago-rodriguez95"
+      },
+      {
+        "network": "GitHub",
+        "username": "santrodriguez-dev",
+        "url": "https://github.com/santrodriguez-dev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Publicis groupe",
+      "position": "Senior Web Developer",
+      "url": "https://www.publicisgroupe.com/",
+      "startDate": "2024-10-01",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Huge",
+      "position": "Senior Web Developer",
+      "url": "https://www.hugeinc.com/",
+      "startDate": "2022-10-01",
+      "endDate": "2024-01-30",
+      "summary": "",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Globant",
+      "position": "Desarrollador Web UI Semisenior",
+      "url": "https://www.globant.com/",
+      "startDate": "2021-04-01",
+      "endDate": "2022-11-30",
+      "summary": "",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Digital Ware",
+      "position": "Dasarrollador Web",
+      "url": "https://www.digitalware.com.co/",
+      "startDate": "2021-04-01",
+      "endDate": "2022-11-30",
+      "summary": "",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Grimorum",
+      "position": "Desarrollador Full Stack",
+      "url": "https://www.globant.com/",
+      "startDate": "2021-04-01",
+      "endDate": "2022-11-30",
+      "summary": "",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Impresora Oriental",
+      "position": "Desarrollador Junior",
+      "url": null,
+      "startDate": "2015-10-01",
+      "endDate": "2016-10-30",
+      "summary": "",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "url": "https://www.udistrital.edu.co",
+      "area": "Especialista en Ingeniería de Software",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-20",
+      "endDate": "2022-05-01",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Incca de Colombia",
+      "url": "https://unincca.edu.co/",
+      "area": "Ingeniero de Sistemas",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-20",
+      "endDate": "2019-05-01",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Instituto Técnico Industrial Centro Don Bosco",
+      "url": "https://www.centrodonbosco.edu.co/",
+      "area": "Académico Bachiller",
+      "studyType": "Bachelor",
+      "startDate": "2006-02-01",
+      "endDate": "2012-12-10",
+      "score": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "NoSQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Master",
+      "keywords": [
+        "Almacenamiento de Datos",
+        "Backend",
+        "Cloud computing"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": [
+        "Elige tu propia aventura",
+        "En desarrollo"
+      ],
+      "url": "https://mars.codes"
+    }
+  ]
+}

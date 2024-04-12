@@ -6,6 +6,7 @@ import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import Whatsapp from "@/icons/Whatsapp.astro";
 import type { SocialIcon } from "@/types";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 import type { CV } from "@/cv";
@@ -19,6 +20,7 @@ const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
   X,
+  Whatsapp,
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
@@ -67,7 +69,7 @@ const t = useTranslations(lang);
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Phone />
+              <Whatsapp />
             </a>
           )
         }
