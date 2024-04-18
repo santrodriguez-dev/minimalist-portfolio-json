@@ -7,7 +7,7 @@
         "./src/data/cv-es.json"
       ],
       "@cv-en": [
-        "./src/data/cv-es.json"
+        "./src/data/cv-en.json"
       ],
       "@/*": [
         "src/*"
