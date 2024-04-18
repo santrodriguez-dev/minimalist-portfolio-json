@@ -1,0 +1,327 @@
+{
+  "basics": {
+    "name": "Santiago Iván Rodríguez",
+    "label": "Desarrollador Full Stack enfocado en contruir productos con atención extra a los detalles",
+    "image": "/me.webp",
+    "email": "srodriguezm95@gmail.com",
+    "phone": "+57 3194339228",
+    "url": "https://santi.dev",
+    "summary": "Soy un apasionado por los números, la tecnología y el deporte. He llevado con éxito diferentes proyectos desde su inicio hasta su etapa más madura. Trabajo principalmente con Typescript, React, Angular, node para crear aplicaciones web consistentes y pensadas en tener una experiencia agradable. Cuento con mas de 7 años trabajando presencial y remotamente para empresas de todo el mundo. He trabajado en diferentes entornos: desde impulsar el desarrollo de start-ups y emprendimientos hasta colaborar en empresas de gran reconocimiento. Me encanta asistir a meetings, eventos y charlas de desarrollo de software y tecnología. El mejor sitio de trabajo es aquel que me permita evolucionar constantemente.",
+    "location": {
+      "address": "Cra 86 #75a-85 apto 335",
+      "postalCode": "57",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "santiago-rodriguez95",
+        "url": "https://www.linkedin.com/in/santiago-rodriguez95"
+      },
+      {
+        "network": "GitHub",
+        "username": "santrodriguez-dev",
+        "url": "https://github.com/santrodriguez-dev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Huge",
+      "position": "Senior Web Developer",
+      "url": "https://www.hugeinc.com/",
+      "startDate": "2022-10-01",
+      "endDate": "2024-01-30",
+      "summary": "Como desarrollador de software Senior, mi rol principal consistió en liderar y participar en el diseño, desarrollo e implementación de interfaces de usuario de alta calidad para el sitio web Android Enterprise asegurando la escalabilidad, mantenimiento y actualización. Esto implica trabajar en estrecha colaboración con diseñadores y equipos de desarrollo para convertir los diseños de interfaz en experiencias interactivas y atractivas para los usuarios. Utilizando tecnologías como HTML, CSS y JavaScript, me encargué de implementar interfaces que sean intuitivas, receptivas y compatibles con una variedad de dispositivos y navegadores.  Además, me comprometo a optimizar el rendimiento de la interfaz para garantizar tiempos de carga rápidos y una experiencia de usuario fluida.",
+      "highlights": [
+        "Realice mejoras de accesibilidad para personas con discapacidad visual en la página Android.com generando un incremento de usabilidad en 5%.",
+        "Contribuí al crecimiento profesional del equipo, proporcionando orientación técnica, realizando revisiones de código y fomentando un entorno de aprendizaje continuo."
+      ]
+    },
+    {
+      "name": "Globant",
+      "position": "Desarrollador Web UI Semisenior",
+      "url": "https://www.globant.com/",
+      "startDate": "2021-04-01",
+      "endDate": "2022-11-30",
+      "summary": "Mi función principal como desarrollador semi-senior, implica colaborar en el diseño, desarrollo y mejora de componentes reutilizables y funcionalidades en aplicaciones web. Utilicé Angular, TypeScript y HTML/CSS para implementar interfaces de usuario dinámicas y escalables, integrando servicios con GraphQL y APIs RESTful de manera eficiente. Entre mis responsabilidades incluía el rendimiento de la aplicación mediante técnicas de optimización y la aplicación de  pruebas unitarias y de integración para garantizar la calidad del código. Esto implica trabajar estrechamente con los equipos de gestión y los stakeholders para comprender los requerimientos del negocio y traducirlos en soluciones técnicas reutilizables y efectivas. Mi enfoque se centra en la adopción de metodologías ágiles para garantizar entregas rápidas e iterativas, así como en la implementación de prácticas de ingeniería de software sólidas para garantizar la seguridad, escalabilidad y mantenibilidad a largo plazo de los productos desarrollados.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Digital Ware",
+      "position": "Dasarrollador Angular",
+      "url": "https://www.digitalware.com.co/",
+      "startDate": "2017-04-01",
+      "endDate": "2021-12-30",
+      "summary": "Realicé la integración efectiva de componentes y funcionalidades para la implementación de herramientas BPM (Ophelia BPM) y sus diferentes verticales logrando así que todas converjan en una única solución tecnológica. Utilicé como stack Angular, TypeScript y HTML/CSS, para la integración de interfaces web intuitivas y fáciles de usar",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Grimorum",
+      "position": "Desarrollador Full Stack",
+      "url": "https://www.globant.com/",
+      "startDate": "2017-05-01",
+      "endDate": "2017-12-30",
+      "summary": "Mi rol como desarrollador Full Stack consiste en el diseño, desarrollo e implementación de soluciones tecnológicas que permitan a un negocio materializar y plasmar sus ideas en dispositivos inteligentes que den solución a una problemática en concreto. Esto incluye trabajar con equipos multidisciplinarios para comprender las necesidades del cliente y convertirlas en soluciones técnicas efectivas.",
+      "highlights": []
+    },
+    {
+      "name": "Impresora Oriental",
+      "position": "Desarrollador Junior",
+      "url": null,
+      "startDate": "2015-10-01",
+      "endDate": "2016-10-30",
+      "summary": "Administrador y desarrollador de plataforma de aprendizaje Moodle para niños en su primera infancia. Utilicé HTML/CSS y Javascript para la integración de juegos e interfaces fáciles de entender que promueven el aprendizaje continuo. Desarrollé páginas web con diseños y requerimientos específicos del cliente.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "url": "https://www.udistrital.edu.co",
+      "area": "Especialista en Ingeniería de Software",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-20",
+      "endDate": "2022-05-01",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Incca de Colombia",
+      "url": "https://unincca.edu.co/",
+      "area": "Ingeniero de Sistemas",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-20",
+      "endDate": "2019-05-01",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Instituto Técnico Industrial Centro Don Bosco",
+      "url": "https://www.centrodonbosco.edu.co/",
+      "area": "Académico Bachiller",
+      "studyType": "Bachelor",
+      "startDate": "2006-02-01",
+      "endDate": "2012-12-10",
+      "score": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "NoSQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Master",
+      "keywords": [
+        "Almacenamiento de Datos",
+        "Backend",
+        "Cloud computing"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": []
+}
