@@ -181,7 +181,11 @@ const translations = {
       </svg>`,
       hotkey: "ctrl+I",
       section: parsedTranslations["keyboardmanager.actions"],
-      handler: () => (location.href = currentLanguage === "es" ? "/en" : "/"),
+      handler: () =>
+        (location.href =
+          currentLanguage === "es"
+            ? "/minimalist-portfolio-json.github.io/en"
+            : "/minimalist-portfolio-json.github.io/es"),
     },
     {
       id: "lightmode",
