@@ -4,7 +4,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://santrodriguez-dev.github.io',
   base: "minimalist-portfolio-json",
-  outDir: './docs',
   i18n: {
     defaultLocale: "es",
     locales: ["es", "en"],
