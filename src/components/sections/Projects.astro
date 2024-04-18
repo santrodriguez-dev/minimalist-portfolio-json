@@ -2,7 +2,7 @@
 import GitHub from "@/icons/GitHub.astro";
 import Section from "../Section.astro";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
-import type { CV } from "@/cv";
+import type { CV } from "@/types";
 
 const cv = Astro.props.cv as CV;
 const { projects } = cv;
@@ -154,3 +154,4 @@ const t = useTranslations(lang);
     }
   }
 </style>
+@/types

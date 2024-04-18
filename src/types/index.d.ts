@@ -143,3 +143,5 @@ interface References {
 }
 
 type Highlight = Array<String>
+
+export type SocialIcon = Record<string, string | any>

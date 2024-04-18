@@ -8,7 +8,7 @@ import WorldMap from "@/icons/WorldMap.astro";
 import Whatsapp from "@/icons/Whatsapp.astro";
 import type { SocialIcon } from "@/types";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
-import type { CV } from "@/cv";
+import type { CV } from "@/types";
 
 const cv = Astro.props.cv as CV;
 
@@ -194,3 +194,4 @@ const t = useTranslations(lang);
     }
   }
 </style>
+@/types
