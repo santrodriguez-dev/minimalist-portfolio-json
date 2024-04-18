@@ -19,7 +19,7 @@ export const ui = {
     'experience.current': "Actual",
     'education.title': "Educación",
     'education.current': "Actual",
-    'projects.title': "Proyectos personales",
+    'projects.title': "Proyectos",
     'projects.see-project': "Ver proyecto {name}",
     'projects.see-repo': "Ver código fuente del proyecto {name}",
     'skills.title': "Skills",
@@ -47,7 +47,7 @@ export const ui = {
     'experience.current': "Current",
     'education.title': "Education",
     'education.current': "Current",
-    'projects.title': "Personal projects",
+    'projects.title': "Projects",
     'projects.see-project': "See project {name}",
     'projects.see-repo': "See source code of project {name}",
     'skills.title': "Skills",
@@ -61,6 +61,7 @@ export const ui = {
     'keyboardmanager.visit': 'Visit {network}',
     'keyboardmanager.theme': 'Theme',
     'keyboardmanager.actions': 'Actions',
+    'keyboardmanager.social': 'Social',
     'keyboardmanager.hotkey-label': 'Press {cmd} + {key} to open the command palette',
   }
 } as const;

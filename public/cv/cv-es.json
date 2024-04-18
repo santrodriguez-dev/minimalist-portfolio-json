@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Santiago Iván Rodríguez",
-    "label": "Full Stack Developer con mas de 8 años de experiencia",
+    "label": "Desarrollador Full Stack enfocado en contruir productos con atención extra a los detalles",
     "image": "/me.webp",
     "email": "srodriguezm95@gmail.com",
     "phone": "+57 3194339228",
     "url": "https://santi.dev",
-    "summary": "Desarrollador Full Stack con +6 años de experiencia en la creación de soluciones web robustas y eficientes. Entrega de productos de alta calidad y performance que cumplen con las necesidades del cliente y superen sus expectativas. Sólidos conocimientos en tecnologías web modernas y metodologías ágiles. Habilidad demostrada de liderazgo y comunicación entre diferentes equipos para fomentar la colaboración y el crecimiento.",
+    "summary": "Soy un apasionado por los números, la tecnología y el deporte. He llevado con éxito diferentes proyectos desde su inicio hasta su etapa más madura. Trabajo principalmente con Typescript, React, Angular, node para crear aplicaciones web consistentes y pensadas en tener una experiencia agradable. Cuento con mas de 7 años trabajando presencial y remotamente para empresas de todo el mundo. He trabajado en diferentes entornos: desde impulsar el desarrollo de start-ups y emprendimientos hasta colaborar en empresas de gran reconocimiento. Me encanta asistir a meetings, eventos y charlas de desarrollo de software y tecnología. El mejor sitio de trabajo es aquel que me permita evolucionar constantemente.",
     "location": {
       "address": "Cra 86 #75a-85 apto 335",
       "postalCode": "57",
@@ -34,10 +34,8 @@
       "url": "https://www.publicisgroupe.com/",
       "startDate": "2024-10-01",
       "endDate": null,
-      "summary": "",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Desarrollador Senior de Software para plataforma e-commerce. Participo en la migración de diferentes productos de la cadena de supermercados estadounidense Wegmans Food Markets usando NextJs y Storybook como herramientas para realizar entrega de piezas de software aisladas y testeables. Colaboro con la entrega rápida de valor para el cliente, fomento buenas prácticas, arquitectura moderna, flexible y optimizada, además de una cultura de rendimiento y trabajo en equipo.",
+      "highlights": []
     },
     {
       "name": "Huge",
@@ -45,9 +43,10 @@
       "url": "https://www.hugeinc.com/",
       "startDate": "2022-10-01",
       "endDate": "2024-01-30",
-      "summary": "",
+      "summary": "Como desarrollador de software Senior, mi rol principal consistió en liderar y participar en el diseño, desarrollo e implementación de interfaces de usuario de alta calidad para el sitio web Android Enterprise asegurando la escalabilidad, mantenimiento y actualización. Esto implica trabajar en estrecha colaboración con diseñadores y equipos de desarrollo para convertir los diseños de interfaz en experiencias interactivas y atractivas para los usuarios. Utilizando tecnologías como HTML, CSS y JavaScript, me encargué de implementar interfaces que sean intuitivas, receptivas y compatibles con una variedad de dispositivos y navegadores.  Además, me comprometo a optimizar el rendimiento de la interfaz para garantizar tiempos de carga rápidos y una experiencia de usuario fluida.",
       "highlights": [
-        "Started the company"
+        "Realice mejoras de accesibilidad para personas con discapacidad visual en la página Android.com generando un incremento de usabilidad en 5%.",
+        "Contribuí al crecimiento profesional del equipo, proporcionando orientación técnica, realizando revisiones de código y fomentando un entorno de aprendizaje continuo."
       ]
     },
     {
@@ -56,18 +55,18 @@
       "url": "https://www.globant.com/",
       "startDate": "2021-04-01",
       "endDate": "2022-11-30",
-      "summary": "",
+      "summary": "Mi función principal como desarrollador semi-senior, implica colaborar en el diseño, desarrollo y mejora de componentes reutilizables y funcionalidades en aplicaciones web. Utilicé Angular, TypeScript y HTML/CSS para implementar interfaces de usuario dinámicas y escalables, integrando servicios con GraphQL y APIs RESTful de manera eficiente. Entre mis responsabilidades incluía el rendimiento de la aplicación mediante técnicas de optimización y la aplicación de  pruebas unitarias y de integración para garantizar la calidad del código. Esto implica trabajar estrechamente con los equipos de gestión y los stakeholders para comprender los requerimientos del negocio y traducirlos en soluciones técnicas reutilizables y efectivas. Mi enfoque se centra en la adopción de metodologías ágiles para garantizar entregas rápidas e iterativas, así como en la implementación de prácticas de ingeniería de software sólidas para garantizar la seguridad, escalabilidad y mantenibilidad a largo plazo de los productos desarrollados.",
       "highlights": [
         "Started the company"
       ]
     },
     {
       "name": "Digital Ware",
-      "position": "Dasarrollador Web",
+      "position": "Dasarrollador Angular",
       "url": "https://www.digitalware.com.co/",
-      "startDate": "2021-04-01",
-      "endDate": "2022-11-30",
-      "summary": "",
+      "startDate": "2017-04-01",
+      "endDate": "2021-12-30",
+      "summary": "Realicé la integración efectiva de componentes y funcionalidades para la implementación de herramientas BPM (Ophelia BPM) y sus diferentes verticales logrando así que todas converjan en una única solución tecnológica. Utilicé como stack Angular, TypeScript y HTML/CSS, para la integración de interfaces web intuitivas y fáciles de usar",
       "highlights": [
         "Started the company"
       ]
@@ -76,12 +75,10 @@
       "name": "Grimorum",
       "position": "Desarrollador Full Stack",
       "url": "https://www.globant.com/",
-      "startDate": "2021-04-01",
-      "endDate": "2022-11-30",
-      "summary": "",
-      "highlights": [
-        "Started the company"
-      ]
+      "startDate": "2017-05-01",
+      "endDate": "2017-12-30",
+      "summary": "Mi rol como desarrollador Full Stack consiste en el diseño, desarrollo e implementación de soluciones tecnológicas que permitan a un negocio materializar y plasmar sus ideas en dispositivos inteligentes que den solución a una problemática en concreto. Esto incluye trabajar con equipos multidisciplinarios para comprender las necesidades del cliente y convertirlas en soluciones técnicas efectivas.",
+      "highlights": []
     },
     {
       "name": "Impresora Oriental",
@@ -89,10 +86,8 @@
       "url": null,
       "startDate": "2015-10-01",
       "endDate": "2016-10-30",
-      "summary": "",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Administrador y desarrollador de plataforma de aprendizaje Moodle para niños en su primera infancia. Utilicé HTML/CSS y Javascript para la integración de juegos e interfaces fáciles de entender que promueven el aprendizaje continuo. Desarrollé páginas web con diseños y requerimientos específicos del cliente.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -337,16 +332,5 @@
       "reference": "Reference…"
     }
   ],
-  "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
-      ],
-      "url": "https://mars.codes"
-    }
-  ]
+  "projects": []
 }

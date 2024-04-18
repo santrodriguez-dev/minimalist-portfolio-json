@@ -1,7 +1,6 @@
 ---
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
 import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
@@ -74,7 +73,7 @@ const t = useTranslations(lang);
           )
         }
         {
-          profiles.map(({ network, url, username }) => {
+          profiles.map(({ network, url }) => {
             const Icon = SOCIAL_ICONS[network];
 
             return (
