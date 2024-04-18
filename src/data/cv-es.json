@@ -2,7 +2,7 @@
   "basics": {
     "name": "Santiago Iván Rodríguez",
     "label": "Desarrollador Full Stack enfocado en contruir productos con atención extra a los detalles",
-    "image": "/minimalist-portfolio-json/me.webp",
+    "image": "./me.webp",
     "email": "srodriguezm95@gmail.com",
     "phone": "+57 3194339228",
     "url": "https://santi.dev",
