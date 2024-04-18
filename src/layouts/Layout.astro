@@ -57,11 +57,18 @@ const lang = getLangFromUrl(Astro.url);
     /* background: #fff; */
     letter-spacing: -0.025rem;
     color-scheme: light;
+    --text-color-normal: #666;
+    --text-color-link: #111;
+    --text-color-subheader: #222;
   }
 
   html[data-theme="dark"] {
+    --text-color-normal: #9b9b9b;
+    --text-color-link: #efefef;
+    --text-color-subheader: #c2c2c2;
     color-scheme: dark;
   }
+
   html[data-theme="light"] {
     color-scheme: light;
   }
@@ -111,7 +118,7 @@ const lang = getLangFromUrl(Astro.url);
   }
 
   p {
-    color: #666;
+    color: var(--text-color-normal);
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
