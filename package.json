@@ -6,7 +6,6 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
-    "build:prod": "astro check && astro build --base minimalist-portfolio-json",
     "preview": "astro preview",
     "astro": "astro"
   },
