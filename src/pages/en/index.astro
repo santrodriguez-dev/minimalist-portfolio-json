@@ -26,7 +26,7 @@ const t = useTranslations(lang);
     <About cv={cv} />
     <Experience cv={cv} />
     <Education cv={cv} />
-    <Projects cv={cv} />
+    {cv.projects.length > 0 && <Projects cv={cv} />}
     <Skills cv={cv} />
   </main>
 
