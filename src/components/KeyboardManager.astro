@@ -181,8 +181,7 @@ const translations = {
       </svg>`,
       hotkey: "ctrl+I",
       section: parsedTranslations["keyboardmanager.actions"],
-      handler: () =>
-        (location.href = currentLanguage === "es" ? "./en" : "./es"),
+      handler: () => (location.href = currentLanguage === "es" ? "./en" : "/"),
     },
     {
       id: "lightmode",
