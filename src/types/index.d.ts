@@ -142,6 +142,6 @@ interface References {
   reference: string
 }
 
-type Highlight = Array<String>
+type Highlight = Array<string>
 
-export type SocialIcon = Record<string, string | any>
+export type SocialIcon = Record<string, string>

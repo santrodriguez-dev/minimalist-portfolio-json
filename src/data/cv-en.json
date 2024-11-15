@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Santiago Iván Rodríguez",
+    "name": "Santiago Ivan Rodríguez Martin",
     "label": "Full Stack Developer focused on building products with extra attention to detail",
     "image": "/minimalist-portfolio-json/me.webp",
     "email": "srodriguezm95@gmail.com",
@@ -29,13 +29,16 @@
   },
   "work": [
     {
-      "name": "Publicis groupe",
+      "name": "Publicis Global Delivery (PGD)",
       "position": "Senior Web Developer",
       "url": "https://www.publicisgroupe.com/",
       "startDate": "2024-10-01",
       "endDate": null,
-      "summary": "Senior Software Developer for e-commerce platform. I am involved in the migration of various products from the American supermarket chain Wegmans Food Markets using NextJs and Storybook as tools for delivering isolated and testable software pieces. I collaborate with fast value delivery for the client, promote good practices, modern, flexible, and optimized architecture, as well as a culture of performance and teamwork.",
-      "highlights": []
+      "summary": "I contribute to the migration of various products for the American supermarket chain Wegmans Food Markets, utilizing Next.js and Storybook to deliver isolated and testable software components. I collaborate in ensuring fast value delivery to the client, promoting best practices, modern and flexible architecture, optimized solutions, and fostering a culture of high performance and teamwork.",
+      "highlights": [
+        "Championed best practices in software development, including code reviews, CI/CD workflows, and performance optimization.",
+        "Designed and implemented a modern, flexible, and scalable architecture that aligns with business goals and adapts to evolving requirements."
+      ]
     },
     {
       "name": "Huge",
@@ -51,13 +54,13 @@
     },
     {
       "name": "Globant",
-      "position": "Senior Web UI Developer",
+      "position": "SSR Web UI Developer",
       "url": "https://www.globant.com/",
       "startDate": "2021-04-01",
       "endDate": "2022-11-30",
-      "summary": "My main role as a semi-senior developer involves collaborating in the design, development, and improvement of reusable components and functionalities in web applications. I used Angular, TypeScript, and HTML/CSS to implement dynamic and scalable user interfaces, integrating services with GraphQL and RESTful APIs efficiently. Among my responsibilities included application performance through optimization techniques and the application of unit and integration tests to ensure code quality. This involves working closely with management teams and stakeholders to understand business requirements and translate them into reusable and effective technical solutions. My focus is on adopting agile methodologies to ensure fast and iterative deliveries, as well as implementing solid software engineering practices to ensure the security, scalability, and long-term maintainability of the developed products.",
+      "summary": "As a semi-senior developer, my primary responsibilities include contributing to the design, development, and enhancement of reusable components and functionalities for web applications. I leverage Angular, TypeScript, and HTML/CSS to build dynamic and scalable user interfaces while efficiently integrating services through GraphQL and RESTful APIs. My role involves optimizing application performance using advanced techniques and implementing unit and integration tests to uphold code quality. I collaborate closely with management teams and stakeholders to analyze business requirements and translate them into reusable, effective technical solutions. I focus on adopting agile methodologies to enable fast, iterative deliveries and emphasize best practices in software engineering to ensure the security, scalability, and long-term maintainability of the products I develop.",
       "highlights": [
-        "Started the company"
+        "Designed and developed modern, intuitive, and visually appealing user interfaces using Angular 9+, collaborating closely with designers and multidisciplinary teams to ensure a high-quality user experience."
       ]
     },
     {
@@ -67,9 +70,7 @@
       "startDate": "2017-04-01",
       "endDate": "2021-12-30",
       "summary": "I effectively integrated components and functionalities for the implementation of BPM tools (Ophelia BPM) and their different verticals, thus ensuring that all converge into a single technological solution. I used Angular, TypeScript, and HTML/CSS as a stack for the integration of intuitive and easy-to-use web interfaces.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": []
     },
     {
       "name": "Grimorum",
@@ -107,7 +108,7 @@
     {
       "institution": "Universidad Distrital Francisco José de Caldas",
       "url": "https://www.udistrital.edu.co",
-      "area": "Specialist in Software Engineering",
+      "area": "Software Engineering Specialist",
       "studyType": "Bachelor",
       "startDate": "2020-01-20",
       "endDate": "2022-05-01",

@@ -13,7 +13,7 @@ const t = useTranslations(lang);
 <Section title={t("experience.title")}>
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary, url }) => {
+      work.map(({ name, startDate, endDate, position, summary, url, highlights }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
           endDate != null
@@ -43,13 +43,18 @@ const t = useTranslations(lang);
                   </time>
                 </div>
               </header>
+              
+              <p>{summary}</p>
 
-              <footer>
-                <p>{summary}</p>
-              </footer>
+              {highlights.length > 0 &&  
+                <footer>
+                  <ul class="highlights">{highlights.map((highlight) => <li>{highlight}</li>)}</ul>
+                </footer>
+              }
+              
             </article>
           </li>
-        );
+        )
       })
     }
   </ul>
@@ -69,15 +74,25 @@ const t = useTranslations(lang);
 
   article a {
     color: color: var(--text-color-link);
-  }
-
-  article a:hover {
     text-decoration: underline;
   }
 
   article h4 {
     color: var(--text-color-subheader);
     font-weight: 400;
+  }
+
+  .highlights{
+    list-style: outside;
+    margin: 8px 0 0 20px;
+    gap: 7px;
+    li{
+      color: var(--text-color-normal);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin: 0;
+      text-wrap: pretty;
+    }
   }
 
   header {
