@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Santiago Ivan Rodríguez Martin",
-    "label": "Full Stack Developer focused on building products with extra attention to detail",
+    "label": "Front end developer",
     "image": "/minimalist-portfolio-json/me.webp",
     "email": "srodriguezm95@gmail.com",
     "phone": "+57 3194339228",
     "url": "https://santi.dev",
-    "summary": "I am passionate about numbers, technology, and sports. I have successfully led various projects from inception to their mature stage. I primarily work with Typescript, React, Angular, node to create consistent web applications focused on delivering an enjoyable user experience. With over 7 years of experience working both on-site and remotely for companies worldwide, I have collaborated in various environments, from driving startup and entrepreneurial development to contributing to well-established companies. I enjoy attending software and technology development meetings, events, and talks. The best workplace is one that allows me to constantly evolve.",
+    "summary": "Passionate about numbers, technology, and sports, I thrive on building high-quality web applications that prioritize seamless user experiences. With over seven years of experience working both on-site and remotely for companies worldwide, I have successfully led projects from inception to maturity. Specializing in TypeScript, React, Angular, and Node.js, I excel in developing scalable, maintainable, and performant applications. My experience spans diverse environments, from driving innovation in startups to enhancing well-established platforms. Beyond coding, I actively engage in software development communities, attending industry events, talks, and conferences to stay at the forefront of emerging technologies. I believe the best workplace is one that fosters continuous learning, collaboration, and growth.",
     "location": {
       "address": "Cra 86 #75a-85 apto 335",
       "postalCode": "57",
@@ -34,10 +34,10 @@
       "url": "https://www.publicisgroupe.com/",
       "startDate": "2024-10-01",
       "endDate": null,
-      "summary": "I contribute to the migration of various products for the American supermarket chain Wegmans Food Markets, utilizing Next.js and Storybook to deliver isolated and testable software components. I collaborate in ensuring fast value delivery to the client, promoting best practices, modern and flexible architecture, optimized solutions, and fostering a culture of high performance and teamwork.",
+      "summary": "Contributing to the migration of multiple products for Wegmans Food Markets, a leading American supermarket chain, leveraging Next.js and Storybook to develop modular, testable, and scalable components and driving fast and efficient value delivery by implementing modern architectures, optimizing performance, and ensuring maintainability.",
       "highlights": [
-        "Championed best practices in software development, including code reviews, CI/CD workflows, and performance optimization.",
-        "Designed and implemented a modern, flexible, and scalable architecture that aligns with business goals and adapts to evolving requirements."
+        "Advocating for best practices in software development, including code reviews, CI/CD workflows, performance optimization, and accessibility standards.",
+        "Designing and implementing a flexible and scalable architecture that aligns with business objectives while adapting to evolving technical requirements."
       ]
     },
     {
